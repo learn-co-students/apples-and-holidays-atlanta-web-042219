@@ -48,7 +48,6 @@ def all_winter_holiday_supplies(holiday_hash)
   rtnd_winter_supplies = []
   winter_supplies = holiday_hash[:winter].values
   rtnd_winter_supplies << winter_supplies
-  # binding.pry
   rtnd_winter_supplies.flatten
 
 end
@@ -61,9 +60,11 @@ def all_supplies_in_holidays(holiday_hash)
   # Summer:
   #   Fourth Of July: Fireworks, BBQ
   # etc.
-  less_tess = holiday_hash.to_s
-  this = less_tess.capitalize
-  binding.pry
+  holiday_hash.each do |season, holiday|
+     puts "#{season.capitalize}:"
+     #foreach season 
+
+   end
 end
 
 def all_holidays_with_bbq(holiday_hash)
