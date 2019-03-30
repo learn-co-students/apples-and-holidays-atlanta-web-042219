@@ -62,7 +62,8 @@ def all_supplies_in_holidays(holiday_hash)
   #   Fourth Of July: Fireworks, BBQ
   # etc.
   less_tess = holiday_hash.to_s
-  # binding.pry
+  this = less_tess.capitalize
+  binding.pry
 end
 
 def all_holidays_with_bbq(holiday_hash)
