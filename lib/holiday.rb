@@ -76,6 +76,10 @@ def all_holidays_with_bbq(holiday_hash)
     data.each do |day, supply|
       supply.each do |item|
         puts "#{day}"
+        
+      end
+    end
+  end
 end
 
 
