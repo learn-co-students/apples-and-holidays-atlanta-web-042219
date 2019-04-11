@@ -81,7 +81,6 @@ def all_holidays_with_bbq(holiday_hash)
         if item == "BBQ"
           output << day
         end
-        
       end
     end
   end
