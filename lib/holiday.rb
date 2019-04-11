@@ -35,6 +35,7 @@ def add_supply_to_memorial_day(holiday_hash, supply)
   holiday_hash[:winter].each do |days|
     days << "Ballons"
   end
+  holiday_hash
 end
 
 def add_new_holiday_with_supplies(holiday_hash, season, holiday_name, supply_array)
